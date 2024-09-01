@@ -126,4 +126,5 @@
     <li>SQLite</li>
   </ul>
 
-  <h2>Note</h2>
+  <h2>Author</h2>
+  <p><strong>Nisansala Amarasinghe</strong></p>
