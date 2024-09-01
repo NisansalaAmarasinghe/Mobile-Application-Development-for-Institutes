@@ -1,7 +1,7 @@
 # Mobile-Application-Development-for-Institutes
-This application allows users who are teachers and students from an Educational Institute to manage their profiles and access relevant information
+
 <h2>Description</h2>
-  <p>This application allows users (teachers and students) from the Best Way Educational Institute to manage their profiles and access relevant information.</p>
+  <p>This application allows users who are teachers and students from an Educational Institute to manage their profiles and access relevant information.</p>
 
   <h2>Objectives</h2>
   <ul>
