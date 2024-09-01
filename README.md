@@ -124,6 +124,7 @@
   <ul>
     <li>Android Studio</li>
     <li>SQLite</li>
+    <li>Java</li>
   </ul>
 
   <h2>Author</h2>
