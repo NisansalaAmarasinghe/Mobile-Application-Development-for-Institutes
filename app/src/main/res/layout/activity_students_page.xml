@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/studentbg2"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:text="Categories of Students"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStudentRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#EA9BF8"
+        android:text="Student's Registration" />
+
+    <Button
+        android:id="@+id/btnLibraryRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library Registration"
+        android:background="#AF2F2F"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnClassSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Room Schedule"
+        android:background="#AF2F2F"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnContactInstitute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AF2F2F"
+        android:text="Contact Institute"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

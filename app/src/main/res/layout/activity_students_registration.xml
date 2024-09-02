@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sregform"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="256dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:text="                                                                                                     Student's Registration"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="First Name"
+            android:padding="10dp"
+            android:textColor="#090909"
+            android:textColorHint="#090909" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Last Name"
+            android:padding="10dp"
+            android:textColor="#090909"
+            android:textColorHint="#090909" />
+
+        <EditText
+            android:id="@+id/etIndexNumber"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Index Number"
+            android:padding="10dp"
+            android:textColor="#090909"
+            android:textColorHint="#090909" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Address"
+            android:padding="10dp"
+            android:textColor="#090909"
+            android:textColorHint="#090909" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Phone Number"
+            android:padding="10dp"
+            android:textColor="#090909"
+            android:textColorHint="#090909" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Grade"
+            android:textColorHint="#090909"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-5"
+                android:textColor="#090909" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6-11"
+                android:textColor="#090909" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12-13"
+                android:textColor="#090909" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

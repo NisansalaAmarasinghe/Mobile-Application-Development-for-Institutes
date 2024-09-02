@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logging"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#FAD8FA"
+        android:backgroundTint="#FFFFFF"
+        android:text="                                    Welcome to &quot;Best Way&quot; School"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="296dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:background="#F5FFFFFF"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="#131313"
+        android:textColorHint="#1C1C1C"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="302dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:background="#F5FFFFFF"
+        android:backgroundTint="#FDFFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#131313"
+        android:textColorHint="#1C1C1C"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#D124EF"
+        android:backgroundTint="#FCAF50EA"
+        android:text="Login"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Create New Account"
+        android:textColor="#191818"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABE3B2F8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Selection">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginBottom="32dp"
+        android:text="Categories of Streams"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnMaths"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#F2FFFFFF"
+        android:contentDescription="Mathematics"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_maths" />
+
+    <ImageButton
+        android:id="@+id/btnScience"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EEFFFFFF"
+        android:contentDescription="Science"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_science" />
+
+    <ImageButton
+        android:id="@+id/btnArts"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#F3FFFFFF"
+        android:contentDescription="Arts"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_art" />
+
+    <ImageButton
+        android:id="@+id/btnCommerce"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EEFFFFFF"
+        android:contentDescription="Commerce"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_commerce" />
+
+    <ImageButton
+        android:id="@+id/btnTechnology"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EEFFFFFF"
+        android:contentDescription="Technology"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_technology" />
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#EDFFFFFF"
+        android:contentDescription="History"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_history" />
+
+
+</LinearLayout>

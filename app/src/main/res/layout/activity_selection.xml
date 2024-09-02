@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DA87F1"
+    android:backgroundTint="#F3E7B6F4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Selection">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="                                                             Categories"
+        android:textAlignment="center"
+        android:textColor="#090A0B"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnTeachers"
+        android:layout_width="389dp"
+        android:layout_height="289dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#FDFCFC"
+        android:contentDescription="Teachers"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_teachers" />
+
+    <ImageButton
+        android:id="@+id/btnStudents"
+        android:layout_width="392dp"
+        android:layout_height="319dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#FDFCFC"
+        android:contentDescription="Students"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_students" />
+
+
+</LinearLayout>

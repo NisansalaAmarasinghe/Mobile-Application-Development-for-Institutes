@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teacherbg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Library Registration for Students"
+            android:textColor="#8C03A3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:padding="10dp"
+            android:textColor="#171616"
+            android:textColorHint="#151414" />
+
+        <EditText
+            android:id="@+id/etIndexNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Index Number"
+            android:padding="10dp"
+            android:textColor="#131313"
+            android:textColorHighlight="#121111"
+            android:textColorHint="#121111" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Grade"
+            android:textColor="#151414"
+            android:textColorHighlight="#121111"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGrade"
+            android:layout_width="357dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="1-5" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:text="6-11" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="12-13" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Time"
+            android:textColor="#151414"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="108dp"
+                android:layout_height="38dp"
+                android:text="Morning" />
+
+            <RadioButton
+                android:layout_width="109dp"
+                android:layout_height="32dp"
+                android:text="Afternoon" />
+
+            <RadioButton
+                android:layout_width="105dp"
+                android:layout_height="29dp"
+                android:text="Evening" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Dates"
+            android:textColor="#100F0F"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Weekdays" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekends" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Register"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
